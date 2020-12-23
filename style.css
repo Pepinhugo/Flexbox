@@ -1,0 +1,118 @@
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+    border-radius: 4px;
+
+
+}
+
+li{
+    float: right;
+    margin-left: 100px;
+
+
+}
+
+li a{
+
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+
+}
+
+
+li a:hover{
+    background-color: darkcyan;
+    border-radius: 4px;
+}
+ 	
+
+a{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+
+#contact{
+	margin-right: 30px;
+}
+
+.content{
+  display: flex;
+  margin-top: 6px;
+  width: 100%;
+  margin-left: 6px;
+  flex-direction: row;
+  
+
+}
+
+.content > div {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-left: -2px;
+  border-radius: 4px;
+  
+}
+
+#p1{
+	text-align: left;
+	margin: 10px;
+  
+}
+
+.colleft{
+	background-color: darkcyan;
+	flex-direction: row;
+	flex-basis: 45%;
+
+}
+
+.colcenter{
+	background-color: cyan;
+	flex-basis: 35%;
+}
+
+.colright{
+	background-color: darkturquoise;
+	flex-basis: 19%;
+}
+
+.colcenter > div {
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 6px;
+}
+
+.colcenter > div > img {
+		margin-left: 6px;
+
+}
+
+#img2colr{
+	margin-top: 50px;
+}
+
+#panneau{
+	width: 100%;
+	height: auto;
+}
+
+
+/* Responsive */
+@media (max-width: 800px) {
+  .content {
+    flex-direction: column;
+  }
+}
