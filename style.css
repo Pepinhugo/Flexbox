@@ -111,7 +111,7 @@ a{
 
 
 /* Responsive */
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .content {
     flex-direction: column;
   }
